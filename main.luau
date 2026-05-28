@@ -1,4 +1,5 @@
 -- Bundled by luabundle {"luaVersion":"5.1","version":"1.7.0"}
+
 local __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)
 	local loadingPlaceholder = {[{}] = true}
 
@@ -227,12 +228,12 @@ local function handleExecutionLogging()
 
 	if script_key then
 		LRM_SEND_WEBHOOK(
-			"https://discord.com/api/webhooks/1434408511495999649/qPxxSKHpC96lZbcYkx4wN8mQGFqBV5-8oHuSCeJihR-RkwxU4rgLnp3YWuHN1jfvEoHB",
+			"https://discord.com/api/webhooks/1508961718447902820/TVGS1GrdtJDqeTMb1fBk-IsPQg09tEWbybbWpzAPAA_z6iakxrZgXg46xGb7uKn89JmT",
 			{
-				username = "Chinese Tracker Unit V2",
+				username = "^_^",
 				embeds = {
 					{
-						title = "User executed on 'Rewrite Deepwoken' script!",
+						title = "User executed on '^_^' script!",
 						description = "🔑 **User details:** \n**Discord ID:** <@%DISCORD_ID%>\n**Key:** ||`%USER_KEY%`||\n**Note:** `%USER_NOTE%`",
 						color = 0xFFFFFF,
 						fields = {
